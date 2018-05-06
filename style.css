@@ -1,0 +1,202 @@
+@font-face{
+	font-family: graviola;
+	src:url(graviolasoft-medium.otf);
+    }
+
+body {
+	background-color:black;
+}
+
+#container {
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	#druga-strona {
+	width:600px;
+	float:left;
+}
+	
+#logo {
+	width:960px;
+	height:258px;
+	background-image:url(logo.png);
+	margin-left:30px;
+	background-repeat: no-repeat;
+	background-size:cover;
+	border-color:yellow;
+	border-style:solid;
+}	
+
+#nav {
+	margin-top:30px;
+	margin-left:27px;
+}
+
+#nav div{
+	border-style: solid;
+	transform: scale(1,1);	
+	background-color:yellow;
+	width: 175px;
+	text-align: center;
+	margin-left: 25px;
+	height: 15px;
+	padding: 15px;
+}
+
+#main{
+	float: left;
+	}
+	
+#glebokie{
+	float: left;
+	}
+	
+#gmina{
+	float: left;
+	}
+	
+#powiat{
+	float:left;
+	}
+	
+#nav div:hover{
+	opacity: 0.7;
+	transform: scale(1.05,1.07);
+	transition-duration: 250ms;
+	border-color:white;
+	}
+	
+#nav a{
+	text-decoration:none;
+	font-family:graviola;
+	color: black;
+	}
+	
+#content{
+	clear:both;
+	background-color: white;
+	margin-top: 120px;
+	margin-left:30px;
+	padding: 15px;
+	height: 600px;
+	border-style:solid;
+	border-color:white;
+	border-width: 1px;
+	overflow: auto;
+	}
+	
+#contentshort{
+	clear:both;
+	background-color: white;
+	margin-top: 120px;
+	margin-left:30px;
+	padding: 15px;
+	height: 300px;
+	border-style:solid;
+	border-color:white;
+	border-width: 1px;
+	overflow: auto;
+	}
+	
+#contentshort img{
+	height:200px;
+	width:300px;	
+}
+	
+#content img{
+	height:200px;
+	width:300px;	
+}
+
+.half {
+	float:left;
+	margin-right:10px;
+}
+
+.rhalf {
+	padding-left:10px;
+}
+
+.info {
+	margin-top:5px;
+	height:205px;
+	border-bottom-style:double;
+	border-bottom-color:black;
+}
+
+
+
+
+#contentshort a{
+	text-decoration:none;
+	font-family:graviola;
+	color:black;
+}
+
+#contentshort a:hover{
+	color:yellow;
+	
+}
+
+#content a{
+	text-decoration:none;
+	font-family:graviola;
+	color:yellow;
+}
+
+#content a:hover{
+	color:red;
+	
+}
+
+.link {
+	border-bottom-style:double;
+	background-color: black;
+}
+
+
+
+.column {
+	float: left;
+	width: 10%;
+	padding: 10px;
+}
+
+.column img {
+	opacity: 0.8; 
+	cursor: pointer; 
+}
+
+.column img:hover {
+	opacity: 1;
+}
+
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.container {
+	position: relative;
+	display: none;
+}
+
+#imgtext {
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	color: yellow;
+	font-size: 20px;
+}
+
+.closebtn {
+	position: absolute;
+	top: 10px;
+	right: 15px;
+	color: white;
+	font-size: 35px;
+	cursor: pointer;
+}
